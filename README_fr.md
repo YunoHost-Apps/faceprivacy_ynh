@@ -29,7 +29,7 @@ Face Privacy est une application web qui permet de flouter facilement les visage
 - Interface intuitive
 
 
-**Version incluse :** 1.0~ynh1
+**Version incluse :** 2025.03.13~ynh1
 
 **Démo :** <https://faceprivacy.forge.apps.education.fr/app/>
 

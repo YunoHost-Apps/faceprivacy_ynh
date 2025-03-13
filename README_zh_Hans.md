@@ -29,7 +29,7 @@ Face Privacy is a web application that makes it easy to blur faces and specific 
 - Intuitive interface
 
 
-**分发版本：** 1.0~ynh1
+**分发版本：** 2025.03.13~ynh1
 
 **演示：** <https://faceprivacy.forge.apps.education.fr/app/>
 
