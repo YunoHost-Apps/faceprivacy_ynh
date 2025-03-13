@@ -1,0 +1,59 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
+packaging_format = 2
+
+id = "faceprivacy"
+name = "FacePrivacy"
+description.en = "Face Blurring Application"
+description.fr = "Application de Floutage de Visages"
+
+version = "1.0~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "MIT"
+website = "https://faceprivacy.forge.apps.education.fr/app/"
+demo = "https://faceprivacy.forge.apps.education.fr/app/"
+code = "https://forge.apps.education.fr/faceprivacy/app"
+
+[integration]
+yunohost = ">= 12.0.9"
+helpers_version = "2.1"
+architectures = "all"
+multi_instance = true
+
+ldap = false
+sso = false
+
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/faceprivacy"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+    [resources.sources]
+
+    [resources.sources.main]
+    url = "https://forge.apps.education.fr/faceprivacy/app/-/archive/main/3e35d09ae999b2e2aaec86120d65c496604d4376.tar.gz"
+    sha256 = "cea8a3306b856f1a1ca2d9f4e6382e918df44f1a25fbd76a069ec772f4b8705e"
+
+    # autoupdate.strategy = "latest_gitlab_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
