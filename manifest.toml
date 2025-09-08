@@ -49,7 +49,7 @@ ram.runtime = "30M"
     url = "https://forge.apps.education.fr/faceprivacy/app/-/archive/main/3e35d09ae999b2e2aaec86120d65c496604d4376.tar.gz"
     sha256 = "cea8a3306b856f1a1ca2d9f4e6382e918df44f1a25fbd76a069ec772f4b8705e"
 
-    # autoupdate.strategy = "latest_gitlab_tag"
+    autoupdate.strategy = "latest_gitlab_commit"
 
     [resources.system_user]
 
