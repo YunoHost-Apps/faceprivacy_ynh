@@ -7,7 +7,7 @@ name = "FacePrivacy"
 description.en = "Face Blurring Application"
 description.fr = "Application de Floutage de Visages"
 
-version = "2026.05.17~ynh1"
+version = "2026.10.17~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -46,8 +46,8 @@ ram.runtime = "30M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://forge.apps.education.fr/faceprivacy/app/-/archive/1fa273c9a950a3c5dde0a510bd46bbe9310b9279/app-1fa273c9a950a3c5dde0a510bd46bbe9310b9279.tar.bz2"
-    sha256 = "c893ac33ccc506543ba332a145e6aebc5cd8ff6e0c87f83c818f0292b6a4a232"
+    url = "https://forge.apps.education.fr/faceprivacy/app/-/archive/1eb748aff7129733786fe8fc386ce48e057ff15e/app-1eb748aff7129733786fe8fc386ce48e057ff15e.tar.bz2"
+    sha256 = "1c7cb8c05ad0c0ebcbc7f44be40de41c6b823a1150fea97896d2225bdbe3b026"
 
     autoupdate.strategy = "latest_gitlab_commit"
 
